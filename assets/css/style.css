@@ -1,0 +1,40 @@
+@import "./reset.css";
+@import "./custom-column.css";
+:root {
+  --theme-color: #292c46;
+}
+.header {
+  background-color: var(--theme-color);
+  min-height: 50px;
+  min-width: 100%;
+}
+.label-font {
+  font-family: "Montserrat", sans-serif;
+}
+.first-label-word {
+  color: #66697d;
+}
+.second-label-word {
+  color: white;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.left-top-label {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+}
+.background-image {
+}
+.blocks-section {
+}
+.info-block {
+}
+.pictures {
+}
