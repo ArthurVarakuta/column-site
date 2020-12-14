@@ -92,8 +92,8 @@
   }
   .col-12 {
     --size: calc(100% / 12 * 12);
-    flex-basis: var(--size);
-    max-width: var(--size);
+    flex-basis: var(--size) ;
+    max-width: var(--size) ;
   }
   
   @media screen and (max-width: 576px) {
