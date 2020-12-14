@@ -21,6 +21,7 @@
   font-size: 0.7em;
   color: white;
   align-self: center;
+  text-transform: uppercase;
 }
 .nav {
   display: flex;
